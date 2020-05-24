@@ -444,7 +444,7 @@ int __attribute__((used)) main(void) {
     reset_board();
 
     // Turn on autoreload by default but before boot.py in case it wants to change it.
-    autoreload_enable();
+//    autoreload_enable();
 
     // By default our internal flash is readonly to local python code and
     // writable over USB. Set it here so that boot.py can change it.
